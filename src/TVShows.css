@@ -46,3 +46,15 @@
   font-weight: 600;
   font-size: 1rem;
 }
+
+@media (min-width: 1200px) {
+  .tvshows-grid {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+@media (min-width: 1600px) {
+  .tvshows-grid {
+    grid-template-columns: repeat(8, 1fr);
+  }
+}

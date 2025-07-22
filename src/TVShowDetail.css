@@ -1,0 +1,42 @@
+.tvshow-detail-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', sans-serif;
+  color: #1f2937;
+}
+
+.tvshow-detail-title {
+  font-size: 2rem;
+  color: #1d4ed8;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.tvshow-detail-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 16px;
+  display: block;
+  margin: 0 auto 1.5rem auto;
+}
+
+.tvshow-detail-summary {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  color: #374151;
+}
+
+.tvshow-detail-info p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.tvshow-detail-info strong {
+  color: #111827;
+}
