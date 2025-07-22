@@ -1,0 +1,48 @@
+.tvshows-container {
+  padding: 2rem;
+  background-color: #f9fafb;
+  min-height: 100vh;
+}
+
+.tvshows-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #1d4ed8;
+}
+
+.tvshows-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1.5rem;
+  justify-items: center;
+}
+
+.tvshow-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+  padding: 1rem;
+  width: 160px;
+  text-align: center;
+  text-decoration: none;
+  color: #111827;
+  transition: transform 0.2s ease;
+}
+
+.tvshow-card:hover {
+  transform: scale(1.05);
+}
+
+.tvshow-image {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 0.5rem;
+}
+
+.tvshow-title {
+  font-weight: 600;
+  font-size: 1rem;
+}
